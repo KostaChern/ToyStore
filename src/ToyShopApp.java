@@ -51,7 +51,7 @@ public class ToyShopApp {
         if (prizeQueue.isEmpty()) {
             System.out.println("Увы,  на данный момент призовых игрушек нет..");
         } else {
-            System.out.println("Призы на выдачу:");
+            System.out.println("Очередь игрушек на призовую выдачу:");
             // Перебор призовых игрушек и их отображение
             for (Toy toy : prizeQueue) {
                 System.out.println("- " + toy.getName());
